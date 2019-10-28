@@ -1,0 +1,57 @@
+{
+  "_from": "alipes-carousel",
+  "_id": "alipes-carousel@1.3.14",
+  "_inBundle": false,
+  "_integrity": "sha512-sis5E1eIebGqRuZ9MaOmZS/wX8GPIPE9wgu8wBQjgi1PNN4+yAUEzdxUcA63spzL3zNmTFm2aQaZeFbKJIgr0A==",
+  "_location": "/alipes-carousel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "alipes-carousel",
+    "name": "alipes-carousel",
+    "escapedName": "alipes-carousel",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/alipes-carousel/-/alipes-carousel-1.3.14.tgz",
+  "_shasum": "911376276871d2a54cef0a6e7008536333e4453a",
+  "_spec": "alipes-carousel",
+  "_where": "/Users/schen/Sandbox/carousel",
+  "author": {
+    "name": "Sonya Chen"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "css-loader": "^0.27.3",
+    "foundation-sites": "^6.3.1",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.3.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.2.1"
+  },
+  "deprecated": false,
+  "description": "Alipes carousel interactives",
+  "files": [
+    "js",
+    "scss"
+  ],
+  "keywords": [
+    "alipes",
+    "carousel"
+  ],
+  "license": "MIT",
+  "name": "alipes-carousel",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "version": "1.3.14"
+}
